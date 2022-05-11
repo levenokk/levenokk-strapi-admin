@@ -1,0 +1,33 @@
+{
+  "name": "admin",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.1.8",
+    "@strapi/plugin-i18n": "4.1.8",
+    "@strapi/strapi": "4.1.8",
+    "@strapi/plugin-users-permissions": "4.1.8",
+    "pg": "^8.7.3",
+    "sqlite3": "5.0.2",
+    "strapi-plugin-email-designer": "^2.1.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "3ae7da65-0129-4f04-81bd-dc8ebcd0690d"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

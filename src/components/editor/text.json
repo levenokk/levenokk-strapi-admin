@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_editor_texts",
+  "info": {
+    "displayName": "Text",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}
